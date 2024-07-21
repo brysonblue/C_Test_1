@@ -14,6 +14,7 @@ int main(void)
      */
 
     printf("Hello, World!\n");
-    printf("1\t2\t3\n4\t5\t6\n7\t8\t9");
+    printf("1\t2\t3\n4\t5\t6\n7\t8\t9\n");
+    printf("\"I like pizza\" -  Abraham Lincoln probably");
     return 0;
 }
