@@ -15,6 +15,7 @@ int main(void)
 
     printf("Hello, World!\n");
     printf("1\t2\t3\n4\t5\t6\n7\t8\t9\n");
-    printf("\"I like pizza\" -  Abraham Lincoln probably");
+    printf("\"I like pizza\" -  Abraham Lincoln probably\n");
+    printf("To put single quotes you would write backslash quote, and backslash quote again. \' \' \n");
     return 0;
 }
