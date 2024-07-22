@@ -59,7 +59,7 @@ int main(void)
     //unisgned int k = 4294967295L; // 4 bytes (0 to +4,294,967,295) %u
 
     //long long int 1 = 9223372036854775807;           // 8 bytes (-9 quintillion to +9 quintillion) %lld
-    //unisnged long long int m = 1844674407370955161U; // 8 bytes (0 to +18 quintillion) %llu
+    //unisnged long long int m = 1844674407370955161U; // 8 bytes (0 to +18 quintillion) %llu //will have an error if used without U
 
     //printf("%c\n", a);    // char
     //printf("%s\n", b);    // character array
