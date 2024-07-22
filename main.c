@@ -99,6 +99,5 @@ int main(void)
     printf("Item 1: $%f\n", item1);
 
 
-
     return 0;
 }
