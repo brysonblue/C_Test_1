@@ -27,12 +27,12 @@ int main(void)
 
     //int x; declaration
     //x = 123; initialization
-    int x = 123;
-    int y = 321; //declaration + initialization
+    //int x = 123;
+    //int y = 321; //declaration + initialization
 
-    int age = 21; //integer
-    float gpa = 3.99; //floating point number
-    char grade = 'A'; //single character
+    const int age = 21; //integer
+    const float gpa = 3.99; //floating point number
+    const char grade = 'A'; //single character
     char name[] = "Bro"; //array of characters
 
 
@@ -88,9 +88,9 @@ int main(void)
     // %1 = minimum field width
     // %- = left align
 
-    float item1 = 5.75;
-    float item2 = 10.00;
-    float item3 = 100.99;
+    const float item1 = 5.75;
+    const float item2 = 10.00;
+    const float item3 = 100.99;
 
     printf("Item 1: $%f\n", item1);
     printf("Item 1: $%.2f\n", item2);
@@ -99,5 +99,71 @@ int main(void)
     printf("Item 1: $%f\n", item1);
 
 
+    // constant = fixed value that cannot be altered by the program during its execution
+
+    const float PI = 3.14159;
+
+    printf("%f\n", PI);
+
+
+    // arithmetic operators
+
+    // + (addition)
+    // - (subtraction)
+    // * (multiplication)
+    // / (division)
+    // % (modulus)
+    // ++ increment
+    // -- decrement
+
+    int x = 5;
+    int y = 2;
+
+    //int z = x + y;
+    //int z = x - y;
+    //int z = x * y;
+    //int z = x / (float) y;
+
+    x++;
+    y--;
+
+    printf("%d\n",x);
+    printf("%d\n",y);
+
+
+    /* augmented assignment operators = used to replace a statement where an operator
+                                        takes a variable as one of its arguments
+                                        and then assigns the result back to the same variable
+                                        x = x + 1
+                                        x+=1
+
+    int x = 10;
+
+    x = x+2;
+    x+=2;
+
+    x = x - 3;
+    x-=3;
+
+    x = x * 4;
+    x*=4;
+
+    x = / 5;
+    x/=5;
+
+    x = % 2;
+    x%=2;
+
+    printf("%d", x);
+
+    */
+
+    /*
+
+    int age;
+
+    printf("How old are you?");
+    scanf("%d", age);
+    */
     return 0;
 }
